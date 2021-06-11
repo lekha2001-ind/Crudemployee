@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crud operation in javascript</title>
+    <h1><center><font color="white">EMPLOYEE FORM</font></center></h1>
+    <link type="text/css" rel="stylesheet" href="crudcss.css">
+</head>
+<body style="background-color: green;">
+   
+    <table >
+        <div class = "update">
+        <tr>
+            <td>
+                <!--HTML form for crud operation-->
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label><b>First Name</b></label>
+                        <input type="text" name="firstname" id="firstname">
+                    </div>
+                    <div>
+                        <label><b>Last Name</b></label>
+                        <input type="text" name="lastname" id="lastname">
+                    </div>
+                    <div>
+                        <label><b>Employee Id</b></label>
+                        <input type="int" name="Employeeid" id="Employeeid"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>Start Date</b></label>
+                        <input type="date" name="startdate" id="startdate"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>Designation</b></label>
+                        <input type="text" name="designation" id="designation"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>Department</b></label>
+                        <input type="text" name="department" id="department"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>End Date</b></label>
+                        <input type="date" name="enddate" id="enddate"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>Marital Status</b></label>
+                        <input type="text" name="martialstatus" id="martialstatus"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>DOB</b></label>
+                        <input type="date" name="dob" id="dob"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>Reporting Manager</b></label>
+                        <input type="text" name="reportingmanager" id="reportingmanager"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>Gender</b></label>
+                        <input type="int" name="gender" id="gender"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>BLood Group</b></label>
+                        <input type="text" name="bloodgroup" id="bloodgroup"/>
+                        
+                    </div>
+                    <div>
+                        <label><b>Address</b></label>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </td>
+            <td>
+            </div>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Employee Id</th>
+                                        <th>start Date</th>
+                                        <th>Designation</th>
+                                        <th>Department</th>
+                                        <th>enddate</th>
+                                        <th>martialstatus</th>
+                                        <th>dob</th>
+                                        <th>Reporting Manager</th>
+                                        <th>Gender</th>
+                                        <th>Blood group</th>
+                                        <th>Address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./crudjs.js"></script>
+</body>
+
+</html>

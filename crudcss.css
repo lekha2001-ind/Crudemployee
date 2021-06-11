@@ -1,0 +1,31 @@
+table{
+    width: 100%;
+    background-color: lightgreen;
+}
+
+
+
+td, th{
+    border: 1px solid #ddd;  
+    padding: 8px ;
+}
+thead{
+    background-color: #ddd;
+}
+input{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+    background: #eee;    
+    font-size: 1rem; 
+    margin: 15px 0 10px;
+    
+}
+input[type="submit"]:hover{
+    background: #f3f3f3;
+}
